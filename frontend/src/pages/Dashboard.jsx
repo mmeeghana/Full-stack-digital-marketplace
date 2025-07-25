@@ -44,7 +44,7 @@ const Dashboard = () => {
             >
               <div className="border-2  border-black mb-2">
                 <img
-                  src={"/uploadedImages/" + product.productThumbnail}
+                  src={`http://localhost:3000/public/imageUploads/${product.productThumbnail}`}
                   alt="Image"
                   className="w-full h-50"
                 />

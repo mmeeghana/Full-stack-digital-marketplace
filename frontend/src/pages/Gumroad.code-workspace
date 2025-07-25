@@ -2,8 +2,12 @@
 	"folders": [
 		{
 			"name": "Gumroad",
-			"path": "../../.."
-		}
+			"path": "C:\\Users\\Meghana\\OneDrive\\Desktop\\vscode\\Gumroad\\backend"
+		},
+        {
+            "name": "Gumroad Frontend",
+            "path": "C:\\Users\\Meghana\\OneDrive\\Desktop\\vscode\\Gumroad\\frontend"
+        }
 	],
 	"settings": {}
 }
