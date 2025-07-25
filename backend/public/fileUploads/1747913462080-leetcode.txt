@@ -1,0 +1,12 @@
+leetcode 
+
+239-sliding window max(revise)
+total no of window=n-k+1(n=nof ele,k=size of win)-output
+points- dec order
+incoming chota don't remove (ex 4 7 5 2 1) 
+0 then   1 2S
+4 remove 7 5
+(5 didn't remove cause it can be big for next window)
+when 5 2 1 (removing 7 index 1 and uska chota indexs remove all)
+delete from front,insert from back-DEQUE
+when inserting any value check if any previous existing values r smaller if yes then remove
